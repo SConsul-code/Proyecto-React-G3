@@ -1,0 +1,17 @@
+.main-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 20px;
+  padding-top: 100px;
+  padding-left: 150px;
+  padding-right: 100px;
+}
+.selected-image {
+  width: 500px;
+  height: 500px;
+  border-radius: 20px;
+}
+.main-images > img {
+  width: 50px;
+}

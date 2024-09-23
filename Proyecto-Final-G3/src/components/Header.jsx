@@ -1,4 +1,4 @@
-import React from "react";
+/* import React from "react"; */
 import ImageLogo from "../Images/logo.svg";
 import ImageCart from "../Images/icon-cart.svg";
 import ImageAvatar from "../Images/image-avatar.png";
