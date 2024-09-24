@@ -12,6 +12,14 @@
   height: 500px;
   border-radius: 20px;
 }
-.main-images {
-  width: 50px;
+.mini-images {
+  width: 500px;
+  gap: 10px;
+  display: flex;
+  flex-flow: row nowrap;
 }
+.item{
+  border-radius: 10px;
+  width: 118px;
+}
+

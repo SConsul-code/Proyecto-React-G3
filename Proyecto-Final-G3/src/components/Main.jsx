@@ -17,10 +17,10 @@ const Main = () => {
       <div className="left-container">
         <img className="selected-image" src={SelectedImage1} alt="" />
         <div className="mini-images">
-          <img src={MiniSelectImage1} alt="" />
-          <img src={MiniSelectImage2} alt="" />
-          <img src={MiniSelectImage3} alt="" />
-          <img src={MiniSelectImage4} alt="" />
+          <img className="item" src={MiniSelectImage1} alt="" />
+          <img className="item" src={MiniSelectImage2} alt="" />
+          <img className="item" src={MiniSelectImage3} alt="" />
+          <img className="item" src={MiniSelectImage4} alt="" />
         </div>
         {/*         Imagenes en tamaño grande de las mini que se van a usar mas adelante
         <img src={SelectedImage2} alt="" />
