@@ -28,37 +28,37 @@
   width: 400px;
   gap: 30px;
   display: flex;
-  flex-flow: row nowrap; 
-  padding-top: 30px; 
+  flex-flow: row nowrap;
+  padding-top: 30px;
 }
-.item{
+.item {
   border-radius: 10px;
   width: 85px;
 }
 
-.company-name{
+.company-name {
   color: var(--Dark-grayish-blue);
   font-size: 12px;
   letter-spacing: 4px;
   font-weight: bold;
 }
 
-.product-title{
+.product-title {
   font-weight: 700;
   font-size: 40px;
   line-height: 45px;
 }
 
-.product-description{
+.product-description {
   color: var(--Dark-grayish-blue);
   line-height: 30px;
 }
 
-.discount-price{
+.discount-price {
   font-weight: 700;
   font-size: 30px;
 }
-.discount{
+.discount {
   color: var(--White);
   background-color: var(--Black-);
   font-weight: 700;
@@ -66,9 +66,31 @@
   border-radius: 8px;
   margin-left: 10px;
 }
-.original-price{
+.original-price {
   color: var(--Dark-grayish-blue);
   font-size: 12px;
   font-weight: 700;
   text-decoration: line-through;
+}
+.button-minus {
+  background: none;
+  border: none;
+  color: inherit;
+  background-color: transparent;
+}
+.button-plus {
+  background: none;
+  border: none;
+  color: inherit;
+  background-color: transparent;
+}
+.iconMinus {
+  padding-bottom: 3px;
+}
+.spanButtons {
+  background-color: green;
+  gap: 20px;
+  display: flex;
+  width: 100px;
+  height: 25px;
 }

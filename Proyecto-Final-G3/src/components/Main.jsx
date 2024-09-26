@@ -40,21 +40,31 @@ const Main = () => {
         <span className="discount">50%</span>
         <h3 className="original-price">$250.00</h3>
         <div>
-          <span>
-            <button>
-              <img src={IconMinus} alt="" />
-            </button>
-            <span>0</span>
-            <button>
-              <img src={IconPlus} alt="" />
-            </button>
+          <span className="spanButtons">
+            <div>
+              <button className="button-minus">
+                <img className="iconMinus" src={IconMinus} alt="" />
+              </button>
+            </div>
+            <div>
+              <span className="counter">0</span>
+            </div>
+            <div>
+              <button className="button-plus">
+                <img src={IconPlus} alt="" />
+              </button>
+            </div>
           </span>
-          <span>
-            <button>
-              <img src={ImageCartButton} alt="" />
-              <span>Add to cart</span>
-            </button>
-          </span>
+          <div className="divAddToCart">
+            <span>
+              <div>
+                <button>
+                  <img src={ImageCartButton} alt="" />
+                  <span>Add to cart</span>
+                </button>
+              </div>
+            </span>
+          </div>
         </div>
       </div>
     </section>
