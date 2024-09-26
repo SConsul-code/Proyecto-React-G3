@@ -30,7 +30,10 @@
   display: flex;
   flex-flow: row nowrap;
   padding-top: 30px;
+  flex-flow: row nowrap;
+  padding-top: 30px;
 }
+
 .item {
   border-radius: 10px;
   width: 85px;
@@ -54,10 +57,12 @@
   line-height: 30px;
 }
 
+
 .discount-price {
   font-weight: 700;
   font-size: 30px;
 }
+
 .discount {
   color: var(--White);
   background-color: var(--Black-);
@@ -66,6 +71,7 @@
   border-radius: 8px;
   margin-left: 10px;
 }
+
 .original-price {
   color: var(--Dark-grayish-blue);
   font-size: 12px;
@@ -93,4 +99,23 @@
   display: flex;
   width: 100px;
   height: 25px;
+}
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: var(--Orange);
+  padding: 10px;
+  font-size: 18px;
+  border-bottom: 2px solid transparent;
+}
+
+nav ul li a:hover {
+  border-bottom: 4px solid var(--Orange);
 }

@@ -1,4 +1,3 @@
-
 :root {
   --Orange: hsl(26, 100%, 55%);
   --Pale-orange: hsl(25, 100%, 94%);
@@ -14,6 +13,7 @@
   flex-direction: row;
   justify-content: space-around;
   height: 10vh;
+  border-bottom: 1px solid var(--Grayish-blue);
 }
 
 .Header--nav__title {
@@ -43,8 +43,15 @@
   width: 60px;
   height: 60px;
 }
+
+.Image-avatar:hover {
+  border: 3px solid var(--Orange);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
 .Image--header {
   display: flex;
   justify-content: space-between;
 }
-
