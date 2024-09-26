@@ -29,16 +29,16 @@ const Main = () => {
       </div>
 
       <div className="right-container">
-        <h3>SNEAKER COMPANY</h3>
-        <h1>Fall Limited Edition Sneakers</h1>
-        <p>
+        <h3 className="company-name">SNEAKER COMPANY</h3>
+        <h1 className="product-title">Fall Limited Edition Sneakers</h1>
+        <p className="product-description">
           These low-profile sneakers are your perfect casual wear companion.
           Featuring a durable rubber outer sole, they’ll withstand everything
           the weather can offer.
         </p>
-        <span>$125.00</span>
-        <span>50%</span>
-        <h3>$250.00</h3>
+        <span className="discount-price">$125.00</span>
+        <span className="discount">50%</span>
+        <h3 className="original-price">$250.00</h3>
         <div>
           <span>
             <button>
