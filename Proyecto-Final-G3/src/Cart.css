@@ -4,12 +4,22 @@
 
 .cart-container {
   padding: 20px;
-/*   width: 250px;
-  height: 250px; */
+  width: 300px;
+  height: 200px;
   box-shadow: 0 0 5px var(--neutral-grayish-blue);
   background-color: var(--neutral-white);
   position: absolute;
   right: 200px;
   top: 70px;
   border-radius: 10px;
+}
+
+.message-cart {
+  margin-top: 10px;
+  border-top: 1.2px solid var(--Grayish-blue) ;
+}
+
+.message-cart h4{
+  text-align: center;
+  margin-top: 20%;
 }

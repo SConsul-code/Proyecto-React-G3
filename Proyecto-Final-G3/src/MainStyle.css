@@ -97,7 +97,7 @@
   padding-bottom: 3px;
 }
 .spanButtons {
-  background-color: green;
+  background-color: var(--Grayish-blue);
   gap: 20px;
   display: flex;
   width: 100px;

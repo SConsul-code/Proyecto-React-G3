@@ -6,6 +6,7 @@ import "./HeaderStyle.css";
 import "./MainStyle.css";
 import "./Images/favicon-32x32.png";
 import "./Cart.css";
+import "./ProductCart.css";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
