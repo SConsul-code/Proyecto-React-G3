@@ -1,6 +1,6 @@
 import React from "react";
-import Products from "../Data.js";
-import IconTrash from "../Images/icon-delete.svg";
+import Products from "../../Data.js";
+import IconTrash from "../../Images/icon-delete.svg";
 
 const ProductCart = () => {
   return (

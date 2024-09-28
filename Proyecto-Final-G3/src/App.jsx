@@ -1,6 +1,6 @@
-import Header from "./components//Header";
-import Main from "./components/Main";
-import ProductCart from "./components/ProductCart";
+import Header from "./components/Header/Header";
+import Main from "./components/Main/Main";
+import ProductCart from "./components/ProductCart/ProductCart";
 
 function App() {
   return (

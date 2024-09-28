@@ -1,10 +1,10 @@
 /* import React from "react"; */
-import ImageLogo from "../Images/logo.svg";
-import ImageCart from "../Images/icon-cart.svg";
-import ImageAvatar from "../Images/image-avatar.png";
+import ImageLogo from "../../Images/logo.svg";
+import ImageCart from "../../Images/icon-cart.svg";
+import ImageAvatar from "../../Images/image-avatar.png";
 import { useState } from "react";
-import Cart from "./Cart";
-import ProductCart from "./ProductCart";
+import Cart from "../Cart/Cart";
+import ProductCart from "../ProductCart/ProductCart";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
