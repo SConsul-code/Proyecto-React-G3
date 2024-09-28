@@ -2,8 +2,12 @@
 import ImageLogo from "../Images/logo.svg";
 import ImageCart from "../Images/icon-cart.svg";
 import ImageAvatar from "../Images/image-avatar.png";
+import { useState } from "react";
+import Cart from "./Cart";
 
 const Header = () => {
+  const [open, setOpen] = useState(false);
+
   return (
     <div className="Header--nav">
       <div className="Header--nav__title">
@@ -29,9 +33,15 @@ const Header = () => {
         </nav>
       </div>
       <div className="Image--header">
-        <img className="Image-cart" src={ImageCart} alt="" />
+        <img
+          className="Image-cart"
+          src={ImageCart}
+          alt=""
+          onClick={() => setOpen(!open)}
+        />
         <img className="Image-avatar" src={ImageAvatar} alt="" />
       </div>
+      {open && <Cart />}
     </div>
   );
 };

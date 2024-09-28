@@ -7,6 +7,8 @@
   --Light-grayish-blue: hsl(223, 64%, 98%);
   --White: hsl(0, 0%, 100%);
   --Black-/* (with 75% opacity for lightbox background) */: hsl(0, 0%, 0%);
+  --Neutral-White-: hsl(0, 0%, 100%);
+  --neutral-grayish-blue: hsl(220, 14%, 75%);
 }
 
 .main-section {
@@ -18,6 +20,8 @@
   padding-left: 200px;
   padding-right: 200px;
   padding-bottom: 40px;
+  position: relative;
+  z-index: -1;
 }
 .selected-image {
   width: 440px;
@@ -56,7 +60,6 @@
   color: var(--Dark-grayish-blue);
   line-height: 30px;
 }
-
 
 .discount-price {
   font-weight: 700;
@@ -100,7 +103,6 @@
   width: 100px;
   height: 25px;
 }
-
 
 nav ul {
   list-style: none;

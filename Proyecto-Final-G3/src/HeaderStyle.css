@@ -10,10 +10,15 @@
 }
 .Header--nav {
   display: flex;
-  flex-direction: row;
+  /* flex-direction: column; */
   justify-content: space-around;
   height: 10vh;
   border-bottom: 1px solid var(--Grayish-blue);
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .Header--nav__title {
