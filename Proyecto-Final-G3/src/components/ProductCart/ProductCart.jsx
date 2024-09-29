@@ -18,7 +18,7 @@ const ProductCart = () => {
         <img src={IconTrash} alt="" />
       </div>
       <div className="Button-container">
-        <button>Checkout</button>
+        <button className="Checkout">Checkout</button>
       </div>
     </div>
   );

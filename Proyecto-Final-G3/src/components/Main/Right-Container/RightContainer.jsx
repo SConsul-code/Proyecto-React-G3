@@ -25,30 +25,21 @@ const RightContainer = () => {
       <span className="discount-price">$125.00</span>
       <span className="discount">50%</span>
       <h3 className="original-price">$250.00</h3>
+
       <div className="buy-Container">
         <span className="add-article">
-          <span>
-            <button onClick={decrement} className="button-minus">
-              <img className="iconMinus" src={IconMinus} alt="" />
-            </button>
-          </span>
-          <span>
-            <span className="counter">{counter}</span>
-          </span>
-          <span>
-            <button onClick={increment} className="button-plus">
-              <img src={IconPlus} alt="" />
-            </button>
-          </span>
+          <button onClick={decrement} className="button-minus">
+            <img className="iconMinus" src={IconMinus} alt="" />
+          </button>
+          <span className="counter">{counter}</span>
+          <button onClick={increment} className="button-plus">
+            <img src={IconPlus} alt="" />
+          </button>
         </span>
-        <div className="ButtonAddToCart">
-          <span>
-            <button>
-              <img src={ImageCartButton} alt="" />
-              <span>Add to cart</span>
-            </button>
-          </span>
-        </div>
+        <button className="AddToCart">
+          <img src={ImageCartButton} alt="" />
+          Add to cart
+        </button>
       </div>
     </div>
   );
