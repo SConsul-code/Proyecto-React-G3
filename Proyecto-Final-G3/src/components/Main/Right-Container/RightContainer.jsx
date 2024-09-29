@@ -1,9 +1,18 @@
-import React from "react";
+import { useState } from "react";
 import ImageCartButton from "../../../Images/icon-cart.svg";
 import IconMinus from "../../../Images/icon-minus.svg";
 import IconPlus from "../../../Images/icon-plus.svg";
 
 const RightContainer = () => {
+  const [counter, setCounter] = useState(2);
+
+  const increment = () => {
+    setCounter(counter + 1);
+  };
+
+  const decrement = () => {
+    if (counter > 0) setCounter(counter - 1);
+  };
   return (
     <div className="right-container">
       <h3 className="company-name">SNEAKER COMPANY</h3>
@@ -19,25 +28,25 @@ const RightContainer = () => {
       <div className="buy-Container">
         <span className="add-article">
           <span>
-            <button className="button-minus">
+            <button onClick={decrement} className="button-minus">
               <img className="iconMinus" src={IconMinus} alt="" />
             </button>
-            </span>
+          </span>
           <span>
-            <span className="counter">0</span>
-            </span>
+            <span className="counter">{counter}</span>
+          </span>
           <span>
-            <button className="button-plus">
+            <button onClick={increment} className="button-plus">
               <img src={IconPlus} alt="" />
             </button>
-            </span>
+          </span>
         </span>
         <div className="ButtonAddToCart">
           <span>
-              <button>
-                <img src={ImageCartButton} alt="" />
-                <span>Add to cart</span>
-              </button>
+            <button>
+              <img src={ImageCartButton} alt="" />
+              <span>Add to cart</span>
+            </button>
           </span>
         </div>
       </div>
