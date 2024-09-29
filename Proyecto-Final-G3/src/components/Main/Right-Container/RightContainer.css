@@ -50,14 +50,10 @@
   .button-minus {
     background: none;
     border: none;
-    color: inherit;
-    background-color: transparent;
   }
   .button-plus {
     background: none;
     border: none;
-    color: inherit;
-    background-color: transparent;
   }
   .iconMinus {
     padding-bottom: 3px;
@@ -71,6 +67,7 @@
     display: flex;
     justify-content: space-between;
     background-color: var(--Light-grayish-blue);
+    font-weight: 700;
     border-radius: 8px;
     align-items: center;
     gap: 20px;
@@ -78,18 +75,11 @@
     width: 100px;
     height: 40px;
   }
-  
-  .ButtonAddToCart{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    width: 300px;
-    height: 45px;
-  }
 
-  .ButtonAddToCart button{
+  .AddToCart{
     background-color: var(--Orange);
     border-color: hsl(26, 100%, 55%);
+    font-weight: 700;
     border: none;
     border-radius: 8px;
     display: flex;
@@ -98,4 +88,9 @@
     gap: 20px;
     width: 250px;
     height: 45px;
+    cursor: pointer;
+  }
+
+  .AddToCart:hover{
+    background-color: var(--Pale-orange);
   }

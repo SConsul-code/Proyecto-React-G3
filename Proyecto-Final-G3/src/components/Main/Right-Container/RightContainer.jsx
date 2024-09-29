@@ -3,6 +3,7 @@ import ImageCartButton from "../../../Images/icon-cart.svg";
 import IconMinus from "../../../Images/icon-minus.svg";
 import IconPlus from "../../../Images/icon-plus.svg";
 
+
 const RightContainer = () => {
   return (
     <div className="right-container">
@@ -16,30 +17,22 @@ const RightContainer = () => {
       <span className="discount-price">$125.00</span>
       <span className="discount">50%</span>
       <h3 className="original-price">$250.00</h3>
+      
+      
       <div className="buy-Container">
-        <span className="add-article">
-          <span>
-            <button className="button-minus">
-              <img className="iconMinus" src={IconMinus} alt="" />
-            </button>
-            </span>
-          <span>
-            <span className="counter">0</span>
-            </span>
-          <span>
-            <button className="button-plus">
-              <img src={IconPlus} alt="" />
-            </button>
-            </span>
-        </span>
-        <div className="ButtonAddToCart">
-          <span>
-              <button>
+              <span className="add-article">
+                  <button className="button-minus">
+                    <img className="iconMinus" src={IconMinus} alt="" />
+                  </button>         
+                  <span className="counter">0</span>            
+                  <button className="button-plus">
+                    <img src={IconPlus} alt="" />
+                  </button>           
+              </span>
+              <button className="AddToCart">
                 <img src={ImageCartButton} alt="" />
-                <span>Add to cart</span>
+                Add to cart
               </button>
-          </span>
-        </div>
       </div>
     </div>
   );

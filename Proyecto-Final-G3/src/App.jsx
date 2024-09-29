@@ -5,7 +5,7 @@ import ProductCart from "./components/ProductCart/ProductCart";
 function App() {
   return (
     <div>
-      <ProductCart />
+      {/* <ProductCart /> */}
       <Header />
       <Main />
     </div>
