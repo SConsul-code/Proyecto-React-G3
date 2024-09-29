@@ -1,3 +1,14 @@
+:root {
+  --Orange: hsl(26, 100%, 55%);
+  --Pale-orange: hsl(25, 100%, 94%);
+  --Very-dark-blue: hsl(220, 13%, 13%);
+  --Dark-grayish-blue: hsl(219, 9%, 45%);
+  --Grayish-blue: hsl(220, 14%, 75%);
+  --Light-grayish-blue: hsl(223, 64%, 98%);
+  --White: hsl(0, 0%, 100%);
+  --Black-/* (with 75% opacity for lightbox background) */: hsl(0, 0%, 0%);
+}
+
 .company-name {
     color: var(--Dark-grayish-blue);
     font-size: 12px;
@@ -51,10 +62,40 @@
   .iconMinus {
     padding-bottom: 3px;
   }
-  .spanButtons {
-    background-color: var(--Grayish-blue);
-    gap: 20px;
+  .buy-Container{
     display: flex;
+    flex-direction: row;
+
+  }
+  .add-article {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--Light-grayish-blue);
+    border-radius: 8px;
+    align-items: center;
+    gap: 20px;
+    padding: 3px 20px ;
     width: 100px;
-    height: 25px;
+    height: 40px;
+  }
+  
+  .ButtonAddToCart{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 300px;
+    height: 45px;
+  }
+
+  .ButtonAddToCart button{
+    background-color: var(--Orange);
+    border-color: hsl(26, 100%, 55%);
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 250px;
+    height: 45px;
   }

@@ -16,30 +16,28 @@ const RightContainer = () => {
       <span className="discount-price">$125.00</span>
       <span className="discount">50%</span>
       <h3 className="original-price">$250.00</h3>
-      <div>
-        <span className="spanButtons">
-          <div>
+      <div className="buy-Container">
+        <span className="add-article">
+          <span>
             <button className="button-minus">
               <img className="iconMinus" src={IconMinus} alt="" />
             </button>
-          </div>
-          <div>
+            </span>
+          <span>
             <span className="counter">0</span>
-          </div>
-          <div>
+            </span>
+          <span>
             <button className="button-plus">
               <img src={IconPlus} alt="" />
             </button>
-          </div>
+            </span>
         </span>
-        <div className="divAddToCart">
+        <div className="ButtonAddToCart">
           <span>
-            <div>
               <button>
                 <img src={ImageCartButton} alt="" />
                 <span>Add to cart</span>
               </button>
-            </div>
           </span>
         </div>
       </div>
