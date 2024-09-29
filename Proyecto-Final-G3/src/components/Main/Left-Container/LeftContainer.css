@@ -1,0 +1,19 @@
+.selected-image {
+    width: 440px;
+    height: 450px;
+    border-radius: 20px;
+  }
+  .mini-images {
+    width: 400px;
+    gap: 30px;
+    display: flex;
+    flex-flow: row nowrap;
+    padding-top: 30px;
+    flex-flow: row nowrap;
+    padding-top: 30px;
+  }
+  
+  .item {
+    border-radius: 10px;
+    width: 85px;
+  }
