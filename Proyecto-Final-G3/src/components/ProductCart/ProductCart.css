@@ -1,3 +1,14 @@
+:root {
+  --Orange: hsl(26, 100%, 55%);
+  --Pale-orange: hsl(25, 100%, 94%);
+  --Very-dark-blue: hsl(220, 13%, 13%);
+  --Dark-grayish-blue: hsl(219, 9%, 45%);
+  --Grayish-blue: hsl(220, 14%, 75%);
+  --Light-grayish-blue: hsl(223, 64%, 98%);
+  --White: hsl(0, 0%, 100%);
+  --Black-/* (with 75% opacity for lightbox background) */: hsl(0, 0%, 0%);
+}
+
 .Main-Cart {
   display: flex;
   align-items: center;
@@ -37,27 +48,22 @@
   grid-column: 3/4;
   display: flex;
   justify-content: center;
+  cursor:pointer
 }
 
-.Button-container {
+.Checkout{
   grid-row: 2/3;
   grid-column: 1/4;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--Orange);
   border-radius: 10px;
-}
-
-.Button-container button {
   width: 90%;
   height: 50px;
   background-color: var(--Orange);
   border: none;
   color: var(--Very-dark-blue);
-  
+  cursor:pointer
 }
 
 .Checkout:hover{
-  background-color: red;
+  background-color:var(--Pale-orange);
 }
+

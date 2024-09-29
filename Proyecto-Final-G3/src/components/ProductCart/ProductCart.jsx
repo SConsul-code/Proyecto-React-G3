@@ -17,9 +17,7 @@ const ProductCart = () => {
       <div className="Trash-container">
         <img src={IconTrash} alt="" />
       </div>
-      <div className="Button-container">
         <button className="Checkout">Checkout</button>
-      </div>
     </div>
   );
 };
