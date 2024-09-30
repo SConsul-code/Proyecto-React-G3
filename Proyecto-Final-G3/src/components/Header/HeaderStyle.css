@@ -1,3 +1,13 @@
+:root {
+  --Orange: hsl(26, 100%, 55%);
+  --Pale-orange: hsl(25, 100%, 94%);
+  --Very-dark-blue: hsl(220, 13%, 13%);
+  --Dark-grayish-blue: hsl(219, 9%, 45%);
+  --Grayish-blue: hsl(220, 14%, 75%);
+  --Light-grayish-blue: hsl(223, 64%, 98%);
+  --White: hsl(0, 0%, 100%);
+  --Black-/* (with 75% opacity for lightbox background) */: hsl(0, 0%, 0%);
+}
 
 .Header--nav {
   display: flex;
@@ -17,8 +27,9 @@
 }
 
 .Image--logo {
+  margin-top: 10px;
   width: 200px;
-  height: 35px;
+  height: 30px;
 }
 
 .Main--nav a {
@@ -33,12 +44,17 @@
   margin-right: 40px;
   width: 30px;
   height: 30px;
+  cursor: pointer;
+}
+.Image-cart:hover{
+  opacity: 50%;
 }
 
 .Image-avatar {
   border: solid white 3px;
   width: 60px;
   height: 60px;
+  cursor: pointer;
 }
 
 .Image-avatar:hover {
@@ -46,6 +62,7 @@
   width: 60px;
   height: 60px;
   border-radius: 50%;
+  opacity: 80%;
 }
 
 .Image--header {
@@ -65,10 +82,12 @@ nav ul li a {
   padding: 10px;
   font-size: 18px;
   border-bottom: 2px solid transparent;
+  opacity: 80%;
 }
 
 nav ul li a:hover {
   border-bottom: 4px solid var(--Orange);
   padding-bottom: 37px;
+  color: var(--Very-dark-blue);
 }
 

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import ImageCartButton from "../../../Images/icon-cart.svg";
+import ImageCartButtonBlack from "../../../Images/icon-cart-black.svg";
 import IconMinus from "../../../Images/icon-minus.svg";
 import IconPlus from "../../../Images/icon-plus.svg";
 
@@ -37,7 +38,7 @@ const RightContainer = () => {
           </button>
         </span>
         <button className="AddToCart">
-          <img src={ImageCartButton} alt="" />
+          <img src={ImageCartButtonBlack}alt="" />
           Add to cart
         </button>
       </div>
