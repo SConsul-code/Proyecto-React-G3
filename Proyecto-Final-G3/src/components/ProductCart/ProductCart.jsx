@@ -1,4 +1,3 @@
-import React from "react";
 import Products from "../../Data.js";
 import IconTrash from "../../Images/icon-delete.svg";
 
@@ -17,7 +16,7 @@ const ProductCart = () => {
       <div className="Trash-container">
         <img src={IconTrash} alt="" />
       </div>
-        <button className="Checkout">Checkout</button>
+      <button className="Checkout">Checkout</button>
     </div>
   );
 };
