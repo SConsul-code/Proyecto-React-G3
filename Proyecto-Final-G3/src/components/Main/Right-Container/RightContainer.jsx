@@ -3,17 +3,9 @@ import ImageCartButton from "../../../Images/icon-cart.svg";
 import ImageCartButtonBlack from "../../../Images/icon-cart-black.svg";
 import IconMinus from "../../../Images/icon-minus.svg";
 import IconPlus from "../../../Images/icon-plus.svg";
+import ProductCart from "../../ProductCart/ProductCart";
 
-const RightContainer = () => {
-  const [counter, setCounter] = useState(2);
-
-  const increment = () => {
-    setCounter(counter + 1);
-  };
-
-  const decrement = () => {
-    if (counter > 0) setCounter(counter - 1);
-  };
+const RightContainer = ({ counter, decrement, increment }) => {
   return (
     <div className="right-container">
       <h3 className="company-name">SNEAKER COMPANY</h3>
@@ -37,8 +29,8 @@ const RightContainer = () => {
             <img src={IconPlus} alt="" />
           </button>
         </span>
-        <button className="AddToCart">
-          <img src={ImageCartButtonBlack}alt="" />
+        <button  className="AddToCart">
+          <img src={ImageCartButtonBlack} alt="" />
           Add to cart
         </button>
       </div>

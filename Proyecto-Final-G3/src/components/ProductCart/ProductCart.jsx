@@ -1,7 +1,7 @@
 import Products from "../../Data.js";
 import IconTrash from "../../Images/icon-delete.svg";
 
-const ProductCart = () => {
+const ProductCart = ({ counter }) => {
   return (
     <div className="Main-Cart">
       <div className="Main-image">
@@ -9,9 +9,9 @@ const ProductCart = () => {
       </div>
       <div className="Product-data">
         <p>
-          {[Products[0].name]} {[Products[0].price]}x{[Products[0].id]}
+          {[Products[0].name]} {[Products[0].price]}x{[Products[0].counter]}
         </p>
-        {/* <span>Total</span> */}
+        {/* <span>Total:{[Products[0].price] * counter}</span> */}
       </div>
       <div className="Trash-container">
         <img src={IconTrash} alt="" />

@@ -4,7 +4,6 @@ import ImageCart from "../../Images/icon-cart.svg";
 import ImageAvatar from "../../Images/image-avatar.png";
 import { useState } from "react";
 import Cart from "../Cart/Cart";
-import ProductCart from "../ProductCart/ProductCart";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
