@@ -22,6 +22,12 @@ const Main = ({ counter, increment, decrement }) => {
     }
   };
 
+  function deleteProductFromCart() {
+    setShowCart(false);
+    decrement();
+    
+  }
+
   return (
     <section className="main-section">
       <LeftContainer />
@@ -55,8 +61,12 @@ const Main = ({ counter, increment, decrement }) => {
       </div>
 
       {/* Renderizar el componente ProductCart si showCart es true */}
-      {showCart && <ProductCart counter={counter} />}
-      {/* {showCart===false && <Cart/>} */}
+      {showCart && (
+        <ProductCart
+          counter={counter}
+          deleteProductFromCart={deleteProductFromCart}
+        />
+      )}
     </section>
   );
 };

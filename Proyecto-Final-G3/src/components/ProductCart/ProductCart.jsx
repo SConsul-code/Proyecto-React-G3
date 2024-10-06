@@ -1,15 +1,13 @@
 import Products from "../../Data.js";
 import IconTrash from "../../Images/icon-delete.svg";
 
-const ProductCart = ({ counter }) => {
+const ProductCart = ({ counter, deleteProductFromCart }) => {
   // Obtén el precio del primer producto
   const precioProducto = Products[0].price;
 
-  // Calcula el total
-  const total = precioProducto * counter;
-
   return (
     <div className="Main-Cart">
+      {counter > 0}
       <div className="Main-image">
         <img src={Products[0].img} alt="" />
       </div>
@@ -17,11 +15,10 @@ const ProductCart = ({ counter }) => {
         <p>
           {Products[0].name} {precioProducto} x {counter}
         </p>
-        {/* Muestra el total */}
         <span>Total: ${125 * counter}</span>
       </div>
       <div className="Trash-container">
-        <img src={IconTrash} alt="" />
+        <img onClick={deleteProductFromCart} src={IconTrash} alt="" />
       </div>
       <button className="Checkout">Checkout</button>
     </div>
