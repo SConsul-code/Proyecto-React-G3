@@ -18,7 +18,7 @@
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   grid-template-rows: 1fr 1fr;
-  position: relative;
+  position: absolute;
   top: 130px;
   left: 74%;
 }
@@ -48,10 +48,10 @@
   grid-column: 3/4;
   display: flex;
   justify-content: center;
-  cursor:pointer
+  cursor: pointer;
 }
 
-.Checkout{
+.Checkout {
   grid-row: 2/3;
   grid-column: 1/4;
   border-radius: 10px;
@@ -61,10 +61,9 @@
   background-color: var(--Orange);
   border: none;
   color: var(--Very-dark-blue);
-  cursor:pointer
+  cursor: pointer;
 }
 
-.Checkout:hover{
-  background-color:var(--Pale-orange);
+.Checkout:hover {
+  background-color: var(--Pale-orange);
 }
-
