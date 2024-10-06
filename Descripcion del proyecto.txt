@@ -1,0 +1,13 @@
+Proyecto Final React
+
+Integrantes:
+Santiago Consul
+Gerònimo Lucas
+Horacio de Carballo
+
+Proyecto final realizado en Senpai Academy,creacion de componentes y utilizamos el hook de useState de React para gestionar los componentes que se renderizan.
+
+Objetivo del Proyecto:
+Poder implementar la logica en el codigo para crear un carrito de compras que toma 1 producto como referencia,utilizar las herramientas que nos brinda React y JavaScript
+
+
