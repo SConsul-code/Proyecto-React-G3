@@ -2,7 +2,7 @@ import Products from "../../Data.js";
 import IconTrash from "../../Images/icon-delete.svg";
 
 const ProductCart = ({ counter, deleteProductFromCart }) => {
-  // Obtén el precio del primer producto
+
   const precioProducto = Products[0].price;
 
   return (

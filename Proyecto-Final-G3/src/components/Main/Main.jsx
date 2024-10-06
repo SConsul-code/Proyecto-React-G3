@@ -12,10 +12,10 @@ import Cart from "../Cart/Cart";
 import LeftContainer from "./LeftContainer/LeftContainer";
 
 const Main = ({ counter, increment, decrement }) => {
-  // Estado para controlar si se muestra el carrito
+ 
   const [showCart, setShowCart] = useState(false);
 
-  // Función para añadir al carrito y mostrar el componente
+
   const handleAddToCart = () => {
     if (counter > 0) {
       setShowCart(true);
@@ -60,7 +60,7 @@ const Main = ({ counter, increment, decrement }) => {
         </div>
       </div>
 
-      {/* Renderizar el componente ProductCart si showCart es true */}
+      
       {showCart && (
         <ProductCart
           counter={counter}
