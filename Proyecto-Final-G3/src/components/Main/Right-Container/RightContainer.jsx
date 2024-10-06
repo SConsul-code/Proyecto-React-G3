@@ -30,7 +30,7 @@ const RightContainer = ({ counter, decrement, increment }) => {
           </button>
         </span>
         <button  className="AddToCart">
-          <img src={ImageCartButtonBlack} alt="" />
+          <img src={ImageCartButtonBlack} className="IconContainer" alt="" />
           Add to cart
         </button>
       </div>
