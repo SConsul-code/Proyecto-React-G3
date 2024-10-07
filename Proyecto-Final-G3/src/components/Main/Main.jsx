@@ -2,11 +2,6 @@ import { useState } from "react";
 import ImageCartButtonBlack from "../../Images/icon-cart-black.svg";
 import IconMinus from "../../Images/icon-minus.svg";
 import IconPlus from "../../Images/icon-plus.svg";
-import SelectedImage1 from "../../Images/image-product-1.jpg";
-import MiniSelectImage1 from "../../Images/image-product-1-thumbnail.jpg";
-import MiniSelectImage2 from "../../Images/image-product-2-thumbnail.jpg";
-import MiniSelectImage3 from "../../Images/image-product-3-thumbnail.jpg";
-import MiniSelectImage4 from "../../Images/image-product-4-thumbnail.jpg";
 import ProductCart from "../ProductCart/ProductCart";
 import Cart from "../Cart/Cart";
 import LeftContainer from "./LeftContainer/LeftContainer";
@@ -60,7 +55,7 @@ const Main = ({ counter, increment, decrement }) => {
         </div>
       </div>
 
-      
+
       {showCart && (
         <ProductCart
           counter={counter}

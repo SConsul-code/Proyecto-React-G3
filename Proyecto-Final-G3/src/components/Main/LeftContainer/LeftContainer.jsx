@@ -8,11 +8,11 @@ import image4 from "../../../Images/image-product-4.jpg";
 const LeftContainer = () => {
   const [imagenSeleccionada, setImagenSeleccionada] = useState(0);
 
-  // Usa las imágenes importadas
+  
   const imagenes = [image1, image2, image3, image4];
 
   const manejarCambioImagen = (index) => {
-    console.log("Imagen seleccionada:", index); // Para depuración
+    console.log("Imagen seleccionada:", index);
     setImagenSeleccionada(index);
   };
 
@@ -38,7 +38,7 @@ const LeftContainer = () => {
             style={{
               opacity: index === imagenSeleccionada ? 1 : 0.5,
               cursor: "pointer",
-            }} // Estilo en línea temporal para ver el efecto
+            }}
           />
         ))}
       </div>
