@@ -10,49 +10,49 @@
 }
 
 .selected-image {
-    width: 440px;
-    height: 480px;
-    border-radius: 20px;
-    object-fit: cover;
-  }
-  .mini-images {
-    width: 440px;
-    gap: 25px;
-    display: flex;
-    justify-content: center;
-    flex-flow: row nowrap;
-    padding-top: 30px;
-    flex-flow: row nowrap;
-    padding-top: 30px;
-  }
+  width: 440px;
+  height: 480px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.mini-images {
+  width: 440px;
+  gap: 23px;
+  display: flex;
+  justify-content: center;
+  flex-flow: row nowrap;
+  padding-top: 30px;
+  flex-flow: row nowrap;
+  padding-top: 30px;
+}
 
-  .item {
-    border-radius: 10px;
-    width: 85px;
-    border: solid rgb(255, 255, 255) 3px;
-    cursor: pointer;
-    transition: opacity 0.3s;
-  }
+.miniatura {
+  width: 80px;
+  height: auto;
+  margin: 0 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  border: solid rgb(255, 255, 255) 3px;
+  transition: opacity 0.3s;
+}
 
+.miniatura.seleccionada {
+  border: 3px solid var(--Orange);
+}
 
-  .item:hover{
-    opacity: 50%;
-    border: solid var(--Orange) 3px;
-  }
+.miniatura:hover {
+  opacity: 50%;
+}
 
-  .miniatura {
-    width: 80px;
-    height: auto;
-    margin: 0 5px;
-    cursor: pointer;
-    border: none;
-    border-radius: 8px;
-  }
+.arrow {
+ display: none;
+}
 
-  .miniatura.seleccionada {
-    border: 3px solid var(--Orange);
-  }
+.left-arrow {
+  left: 10px; /* Ajusta la posición según sea necesario */
+}
 
-  .miniatura:hover{
-    opacity: 50%;
-  }
+.right-arrow {
+  right: 10px; /* Ajusta la posición según sea necesario */
+}

@@ -11,8 +11,10 @@
 
 .Header--nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 30px;
+  margin-left: 180px;
+  margin-right: 180px;
   height: 10vh;
   border-bottom: 1px solid var(--Grayish-blue);
   position: absolute;
@@ -27,23 +29,23 @@
 }
 
 .Image--logo {
-  margin-top: 10px;
-  width: 200px;
-  height: 30px;
+  margin-top: 15px;
+  width: 150px;
+  height: 23px;
 }
 
 .Main--nav a {
   text-decoration: none;
   padding: 20px 20px;
-  font-size: 20px;
+  font-size: 15px;
   color: var(--Dark-grayish-blue);
 }
 
 .Image-cart {
-  padding-top: 15px;
+  padding-top: 20px;
   margin-right: 40px;
-  width: 30px;
-  height: 30px;
+  width: 23px;
+  height: 23px;
   cursor: pointer;
 }
 .Image-cart:hover{
@@ -82,14 +84,14 @@ nav ul li a {
   text-decoration: none;
   color: var(--Orange);
   padding: 10px;
-  font-size: 18px;
+  font-size: 12px;
   border-bottom: 2px solid transparent;
   opacity: 80%;
 }
 
 nav ul li a:hover {
   border-bottom: 4px solid var(--Orange);
-  padding-bottom: 37px;
+  padding-bottom: 39px;
   color: var(--Very-dark-blue);
 }
 
